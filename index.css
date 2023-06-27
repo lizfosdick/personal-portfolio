@@ -45,7 +45,7 @@ p {
   display: flex;
   flex-direction: row;
   /* align-items: center; */
-  justify-content: flex-end
+  justify-content: flex-end;
 }
 
 .links-icon {
@@ -60,6 +60,8 @@ p {
   display: flex;
   flex-direction: row;
   width: 60%;
+  padding-bottom: 30px;
+  padding-top: 20px;
 }
 
 .project-section {
