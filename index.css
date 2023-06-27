@@ -55,3 +55,13 @@ p {
 .links-text {
   padding-right: 40px;
 }
+
+.project {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+}
+
+.project-section {
+  padding: 20px;
+}
