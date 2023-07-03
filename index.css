@@ -59,11 +59,22 @@ p {
 .project {
   display: flex;
   flex-direction: row;
+  align-items: center;
   width: 60%;
-  padding-bottom: 30px;
   padding-top: 20px;
 }
 
+.project:hover {
+  background-color: #f2fcfc;
+}
+
 .project-section {
-  padding: 20px;
+  margin: 20px;
+  padding: 8px;
+}
+
+.graphics {
+  border-style: solid;
+  border-color: darkgray;
+  border-width: 1px;
 }
