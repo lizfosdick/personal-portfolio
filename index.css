@@ -24,7 +24,7 @@ main {
   justify-content: space-evenly;
   padding-top: 40px;
   align-items: center;
-  width: 60%
+  width: 70%
 }
 
 .main-intro-text {
@@ -60,7 +60,8 @@ p {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 60%;
+  justify-content: space-evenly;
+  width: 70%;
   padding-top: 20px;
 }
 
@@ -77,4 +78,8 @@ p {
   border-style: solid;
   border-color: darkgray;
   border-width: 1px;
+}
+
+.other-stuff {
+  flex-direction: column;
 }
