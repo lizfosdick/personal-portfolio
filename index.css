@@ -83,7 +83,7 @@ p {
 .other-stuff-section {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   width: 70%;
   padding-top: 40px;
 }
@@ -94,6 +94,7 @@ p {
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
+  width: 33%
 }
 
 .heading {
