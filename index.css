@@ -38,6 +38,7 @@ main {
 
 p {
   font-family: 'Ysabeau Infant', sans-serif;
+  font-weight: 100;
   font-size: 20px;
 }
 
@@ -99,4 +100,15 @@ p {
 
 .heading {
   padding-top: 40px;
+}
+
+.skills {
+  align-items: flex-start;
+  width: 70%;
+}
+
+.bottom-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
