@@ -51,14 +51,6 @@ p {
   font-size: 20px;
 }
 
-.links {
-  display: flex;
-  flex-direction: row;
-  /* align-items: center; */
-  justify-content: flex-end;
-  flex-wrap: nowrap;
-}
-
 @media screen and (max-width: 600px) {
   .links {
     flex-wrap: wrap;
@@ -69,10 +61,6 @@ p {
   padding-right: 10px;
 }
 
-.links-text {
-  padding-right: 40px;
-}
-
 .project {
   display: flex;
   flex-direction: row;
@@ -80,10 +68,6 @@ p {
   width: 70%;
   padding-top: 20px;
   flex-wrap: nowrap;
-}
-
-.project:hover {
-  background-color: #f2fcfc;
 }
 
 @media screen and (max-width: 720px) {
@@ -105,8 +89,6 @@ p {
     width: 100%;
   }
 }
-
-
 
 .graphics {
   border-style: solid;
@@ -138,10 +120,24 @@ p {
   /* width: 33%; */
 }
 
+.other-stuff-heading {
+  padding-top: 40px;
+}
 
+@media screen and (max-width: 600px) {
+  .other-stuff-heading {
+    width: 60%
+  }
+}
 
 .heading {
   padding-top: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .heading {
+    width: 25%
+  }
 }
 
 .skills {
@@ -149,7 +145,7 @@ p {
   width: 70%;
 }
 
-.bottom-icons {
+.icons {
   display: flex;
   flex-direction: row;
   align-items: center;
