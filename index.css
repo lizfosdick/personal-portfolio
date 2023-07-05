@@ -63,10 +63,17 @@ p {
   align-items: center;
   width: 70%;
   padding-top: 20px;
+  flex-wrap: nowrap;
 }
 
 .project:hover {
   background-color: #f2fcfc;
+}
+
+@media screen and (max-width: 720px) {
+  .project {
+    flex-wrap: wrap;
+  }
 }
 
 .project-section {
@@ -74,6 +81,8 @@ p {
   width: 50%;
   /* padding: 8px; */
 }
+
+
 
 .graphics {
   border-style: solid;
@@ -87,6 +96,13 @@ p {
   justify-content: space-evenly;
   width: 70%;
   padding-top: 40px;
+  flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 720px) {
+  .other-stuff-section {
+    flex-wrap: wrap;
+  }
 }
 
 .other-stuff {
@@ -95,8 +111,10 @@ p {
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
-  width: 33%
+  width: 33%;
 }
+
+
 
 .heading {
   padding-top: 40px;
