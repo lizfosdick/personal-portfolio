@@ -1,1 +1,1 @@
-# personal-portfolio
+This is the code for my personal portfolio. It's simple HTML and CSS. The site highlights some of my dev projects along with some other projects I've worked on, personally and professionally.
